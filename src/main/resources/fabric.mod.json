@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "place",
+  "version": "${version}",
+
+  "name": "Place",
+  "description": "Simple r/place mod",
+  "authors": [],
+  "contact": {},
+
+  "license": "All-Rights-Reserved",
+  "icon": "assets/place/icon.png",
+
+  "environment": "server",
+  "entrypoints": {
+    "main": ["io.github.cootshk.place.Place"]
+  },
+
+  "mixins": [
+    "place.mixins.json"
+    ,{
+      "config": "place.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "break": {
+            "trigger": "minecraft:impossible",
+            "conditions": {}
+        }
+    },
+    "rewards": {
+        "function": "cootshk:place/interaction/break"
+    },
+    "sends_telemetry_event": false
+}

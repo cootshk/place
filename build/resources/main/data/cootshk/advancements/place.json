@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Place",
+        "description": "r/place",
+        "icon": {
+            "id": "minecraft:painting"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "cootshk:global/cootshk",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
