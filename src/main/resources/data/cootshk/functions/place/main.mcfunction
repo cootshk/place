@@ -5,6 +5,8 @@
  # Created by Cootshk.
 ##
 
+execute as @a unless score @s NextPlaceTime matches 1.. run scoreboard players set @s NextPlaceTime 1
+
 # Increment timer
 scoreboard players add GlobalTimer PlaceSettings 1
 
