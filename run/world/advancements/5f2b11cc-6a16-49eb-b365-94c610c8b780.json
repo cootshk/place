@@ -1,4 +1,35 @@
 {
+  "cootshk:global/cootshk": {
+    "criteria": {
+      "trigger": "2024-10-26 19:03:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-10-26 19:03:18 -0500"
+    },
+    "done": true
+  },
+  "global:root": {
+    "criteria": {
+      "trigger": "2024-10-26 19:03:18 -0500"
+    },
+    "done": true
+  },
+  "cootshk:place": {
+    "criteria": {
+      "trigger": "2024-10-26 19:03:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2024-10-26 19:03:19 -0500",
+      "minecraft:windswept_hills": "2024-10-26 19:03:42 -0500"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
       "has_stone": "2024-10-26 19:03:51 -0500"
@@ -23,12 +54,6 @@
     },
     "done": true
   },
-  "cootshk:global/cootshk": {
-    "criteria": {
-      "trigger": "2024-10-26 19:03:18 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2024-10-26 19:03:51 -0500"
@@ -38,12 +63,6 @@
   "minecraft:recipes/building_blocks/stone_slab": {
     "criteria": {
       "has_stone": "2024-10-26 19:03:51 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2024-10-26 19:03:18 -0500"
     },
     "done": true
   },
@@ -71,13 +90,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:forest": "2024-10-26 19:03:19 -0500",
-      "minecraft:windswept_hills": "2024-10-26 19:03:42 -0500"
-    },
-    "done": false
-  },
   "minecraft:recipes/redstone/stone_pressure_plate": {
     "criteria": {
       "has_stone": "2024-10-26 19:03:51 -0500"
@@ -87,18 +99,6 @@
   "minecraft:recipes/building_blocks/smooth_stone": {
     "criteria": {
       "has_stone": "2024-10-26 19:03:51 -0500"
-    },
-    "done": true
-  },
-  "global:root": {
-    "criteria": {
-      "trigger": "2024-10-26 19:03:18 -0500"
-    },
-    "done": true
-  },
-  "cootshk:place": {
-    "criteria": {
-      "trigger": "2024-10-26 19:03:18 -0500"
     },
     "done": true
   },

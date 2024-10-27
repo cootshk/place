@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "place": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {}
+        }
+    },
+    "rewards": {
+        "function": "cootshk:place/interaction/place"
+    },
+    "sends_telemetry_event": false
+}
