@@ -1,5 +1,5 @@
-[19:12:59] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.6 with Fabric Loader 0.16.8
-[19:12:59] [main/INFO] (FabricLoader) Loading 44 mods:
+[19:29:49] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.6 with Fabric Loader 0.16.8
+[19:29:49] [main/INFO] (FabricLoader) Loading 44 mods:
 	- carpet 1.4.141+v240429
 	- carpet-extra 1.4.141
 	- fabric-api 0.100.8+1.20.6
@@ -44,46 +44,63 @@
 	- minecraft 1.20.6
 	- mixinextras 0.4.1
 	- place 1.0-SNAPSHOT
-[19:13:02] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/hkaz0/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[19:13:02] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[19:13:02] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[19:13:02] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
-[19:13:02] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[19:13:06] [main/INFO] (Minecraft) [STDOUT]: Hello Fabric world!
-[19:13:06] [main/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:13:07] [main/INFO] (Minecraft) Loaded 1175 recipes
-[19:13:07] [main/INFO] (Minecraft) Loaded 1281 advancements
-[19:13:07] [main/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 867.3 μs
-[19:13:07] [Server thread/INFO] (Minecraft) Starting minecraft server version 1.20.6
-[19:13:07] [Server thread/INFO] (Minecraft) Loading properties
-[19:13:07] [Server thread/INFO] (Minecraft) Default game type: SURVIVAL
-[19:13:07] [Server thread/INFO] (Minecraft) Generating keypair
-[19:13:07] [Server thread/INFO] (Minecraft) Starting Minecraft server on *:25565
-[19:13:07] [Server thread/INFO] (Minecraft) Using epoll channel type
-[19:13:07] [Server thread/INFO] (Minecraft) Preparing level "world"
-[19:13:07] [Server thread/INFO] (carpet) [CM] Loaded 1 settings from carpet.conf
-[19:13:08] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[19:13:08] [Worker-Main-23/INFO] (Minecraft) Preparing spawn area: 0%
-[19:13:08] [Worker-Main-16/INFO] (Minecraft) Preparing spawn area: 2%
-[19:13:08] [Server thread/INFO] (Minecraft) Time elapsed: 589 ms
-[19:13:08] [Server thread/INFO] (Minecraft) Done (1.024s)! For help, type "help"
-[19:13:36] [User Authenticator #1/INFO] (Minecraft) UUID of player Cootshk is 1f484ab6-4f08-4c2a-9b27-fb4eff5f9927
-[19:13:37] [Server thread/INFO] (Minecraft) Cootshk[/127.0.0.1:46500] logged in with entity id 47 at (-26.24520117822226, 79.0, -91.90165086476277)
-[19:13:37] [Server thread/INFO] (Minecraft) Cootshk joined the game
-[19:13:37] [Server thread/INFO] (carpet) Player Cootshk joined with a matching carpet client
-[19:13:38] [User Authenticator #2/INFO] (Minecraft) UUID of player TwentySign is 5f2b11cc-6a16-49eb-b365-94c610c8b780
-[19:13:39] [Server thread/INFO] (Minecraft) TwentySign[/[0:0:0:0:0:0:0:1%0]:46210] logged in with entity id 175 at (-32.89441848913798, 79.0, -82.9345488394422)
-[19:13:39] [Server thread/INFO] (Minecraft) TwentySign joined the game
-[19:13:39] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
-[19:13:46] [Server thread/WARN] (Minecraft) Failed to update secure chat state for Cootshk: 'Chat disabled due to missing profile public key. Please try reconnecting.'
-[19:13:46] [Server thread/INFO] (Minecraft) <Cootshk> wait the 5 minutes lol
-[19:13:50] [Server thread/INFO] (Minecraft) [Cootshk: Set [BypassPlaceTimer] for Cootshk to 1]
-[19:13:52] [Server thread/INFO] (Minecraft) [Cootshk: Set own game mode to Creative Mode]
-[19:14:21] [Server thread/INFO] (Minecraft) [Cootshk: Modified storage cootshk:place]
-[19:14:23] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
-[19:14:42] [Server thread/INFO] (Minecraft) [TwentySign: Gamerule keepInventory is now set to: true]
-[19:14:49] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by TwentySign
-[19:15:39] [Server thread/INFO] (Minecraft) TwentySign lost connection: Timed out
-[19:15:39] [Server thread/INFO] (Minecraft) TwentySign left the game
-[19:15:39] [Server thread/WARN] (Minecraft) handleDisconnection() called twice
-[19:17:17] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
+[19:29:51] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/hkaz0/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[19:29:51] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[19:29:51] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[19:29:51] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[19:29:52] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[19:29:56] [main/INFO] (Minecraft) [STDOUT]: Hello Fabric world!
+[19:29:56] [main/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:29:57] [main/INFO] (Minecraft) Loaded 1175 recipes
+[19:29:57] [main/INFO] (Minecraft) Loaded 1281 advancements
+[19:29:57] [main/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 728.5 μs
+[19:29:57] [Server thread/INFO] (Minecraft) Starting minecraft server version 1.20.6
+[19:29:57] [Server thread/INFO] (Minecraft) Loading properties
+[19:29:57] [Server thread/INFO] (Minecraft) Default game type: SURVIVAL
+[19:29:57] [Server thread/INFO] (Minecraft) Generating keypair
+[19:29:57] [Server thread/INFO] (Minecraft) Starting Minecraft server on *:25565
+[19:29:57] [Server thread/INFO] (Minecraft) Using epoll channel type
+[19:29:57] [Server thread/INFO] (Minecraft) Preparing level "world"
+[19:29:57] [Server thread/INFO] (carpet) [CM] Loaded 1 settings from carpet.conf
+[19:29:57] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[19:29:58] [Worker-Main-20/INFO] (Minecraft) Preparing spawn area: 0%
+[19:29:58] [Worker-Main-8/INFO] (Minecraft) Preparing spawn area: 4%
+[19:29:58] [Server thread/INFO] (Minecraft) Time elapsed: 608 ms
+[19:29:58] [Server thread/INFO] (Minecraft) Done (1.037s)! For help, type "help"
+[19:30:26] [User Authenticator #1/INFO] (Minecraft) UUID of player Cootshk is 1f484ab6-4f08-4c2a-9b27-fb4eff5f9927
+[19:30:26] [Server thread/INFO] (Minecraft) Cootshk[/127.0.0.1:59680] logged in with entity id 57 at (-19.15427898989321, 80.11759293784915, -97.22534520829838)
+[19:30:26] [Server thread/INFO] (Minecraft) Cootshk joined the game
+[19:30:26] [Server thread/INFO] (carpet) Player Cootshk joined with a matching carpet client
+[19:30:30] [Server thread/INFO] (Minecraft) [Cootshk: Reset all scores for Cootshk]
+[19:30:31] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
+[19:30:44] [Server thread/INFO] (Minecraft) [Cootshk: Set [PlaceSettings] for TimeTillNextPlace to 20]
+[19:30:52] [Server thread/INFO] (Minecraft) [Cootshk: Reset all scores for Cootshk]
+[19:30:53] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
+[19:30:56] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
+[19:30:58] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
+[19:30:59] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
+[19:31:02] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
+[19:31:03] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
+[19:31:05] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
+[19:31:06] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
+[19:31:11] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
+[19:31:12] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
+[19:31:17] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
+[19:31:18] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
+[19:31:22] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
+[19:31:23] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
+[19:31:24] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
+[19:31:25] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
+[19:31:26] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
+[19:34:09] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
+[19:41:28] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
+[19:41:30] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
+[19:42:47] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
+[19:42:49] [Server thread/INFO] (Minecraft) [STDOUT]: Block broken by Cootshk
+[19:43:03] [Server thread/INFO] (Minecraft) [Cootshk: Set the world border to 50.0 block(s) wide]
+[19:43:15] [Server thread/INFO] (Minecraft) [Cootshk: Changed the block at -3, 91, 1]
+[19:43:21] [Server thread/INFO] (Minecraft) [Cootshk: Set the world spawn point to -3, 92, 1 [0.0]]
+[19:46:06] [Server thread/INFO] (Minecraft) [Cootshk: Set [BypassPlaceTimer] for Cootshk to 1]
+[19:47:48] [Server thread/INFO] (Minecraft) [Cootshk: Made TwentySign no longer a server operator]
+[20:02:08] [Server thread/INFO] (Minecraft) Cootshk lost connection: Disconnected
+[20:02:08] [Server thread/INFO] (Minecraft) Cootshk left the game
